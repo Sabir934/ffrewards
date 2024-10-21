@@ -53,17 +53,21 @@
 </script>
 
 <style>
-  *{
+ 
+
+ *{
     box-sizing: border-box;
   }
   
   body {
     margin: 0;
+
+
   }
   
   /* Style the header*/
   .header { 
-        font-family:Arial, Helvetica, sans-serif;
+      font-family:Arial, Helvetica, sans-serif;
       background-color: black;
     padding: 20px;
     height: 150px;
@@ -71,20 +75,28 @@
     background-image: url(daimond.jpeg);
     position:fixed;
     width: 100%;
-        margin: 0;
+
+  
   
   }
+.side_bar{
 
-   iframe{
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+  position: fixed;
+}
+  iframe{
 
     margin-top: 90px;
   }
   
   /* Style the top navigation bar */
-  .topnav {
-    overflow: hidden;
+  .topnav{
     background-color: #333;
-  
+    padding: 50px;
+    visibility: hidden;
+    
   }
   
   /* Style the topnav links */
@@ -123,8 +135,6 @@
   
   }
   
-  
-  
 
   /*CARD SECTION */
 
@@ -132,11 +142,10 @@
        border-radius: 20px;
        width: 350px;
        height: auto;
-       margin-top: 150px;
        margin-left: 250px;
        background-color: #f3f2f2;
-        
-font-family: Arial, Helvetica, sans-serif;
+       margin-top: 250px;
+       font-family: Arial, Helvetica, sans-serif;
       
 
   }
@@ -189,8 +198,6 @@ border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
-
-  
   /* Content back */
 
   .img2{
@@ -218,16 +225,16 @@ a{
 
   text-decoration: none;
 }
+
+
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
   @media screen and (max-width:600px) {
     .column {
       width: 100%;
      
 
-
     }
-
-    .header{
+.header{
 
   width: 100%;
   height: 108px;
@@ -246,10 +253,10 @@ visibility: hidden;
 
 
  }
-      
-    .card1{
 
-    margin-top: 25px;
+    /*Update Content 1 mobile */      
+    .card1{
+margin-top: 25px;
       width: 90%;
       margin-left: 25px;
     }
@@ -263,11 +270,17 @@ visibility: hidden;
   margin-top: -10px;
 
 }
+
+
+
+
+
   }
   @media screen and (min-width:600px) {
 
 
     .card1{
+
 width: 50%;
 margin-left: 400px;
 margin-top: 105px;
@@ -285,6 +298,7 @@ margin-top: 105px;
 
 
 }
+
 .img2{
 
   margin-left: 25%;
@@ -300,12 +314,22 @@ margin-top: 105px;
 </div>
 
 <div class="topnav">
-<a>
 
-<a>
-
+   
 </div>
 
+<iframe src="index2.html" height="500" width="300" title="Iframe Example" style="position: fixed;" class="font"></iframe>
+
+
+
+<div>
+
+</div>
+ </div>
+
+<nav class="navbar-Content">
+
+</nav>
       <div class=" card1">
               
     
@@ -380,11 +404,16 @@ margin-top: 105px;
               
 
 
+             
+        
       </p>
-      </div>
+     
 
 
-    <div class="Content-back">
+      </div><br><br><br>
+
+
+      <div class="Content-back">
         
         <a href="index.card2.html">
           
@@ -400,6 +429,9 @@ margin-top: 105px;
       </div><br><br><br><br>
 
 
+      
+
+
 
 <div class="footer">
     <footer>
@@ -410,6 +442,7 @@ margin-top: 105px;
         <a href="privacy.html">Privacy </a>
     </footer>
 </div>
+
 
 </body>
 </html>
