@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<script src="index.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+ 
+
+ *{
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+
+
+  }
+  
+  /* Style the header*/
+  .header { 
+      font-family:Arial, Helvetica, sans-serif;
+      background-color: black;
+    padding: 20px;
+    height: 150px;
+    text-align: center;
+    background-image: url(daimond.jpeg);
+    position:fixed;
+    width: 100%;
+
+  
+  
+  }
+.side_bar{
+
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+  position: fixed;
+}
+  iframe{
+
+    margin-top: 90px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav{
+    background-color: #333;
+    padding: 50px;
+    visibility: hidden;
+    
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 88px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+  }
+.column h2{
+  
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+  .column li{
+
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  
+  }
+  
+
+  /*CARD SECTION */
+
+  .card1{
+       border-radius: 20px;
+       width: 350px;
+       height: auto;
+       margin-left: 250px;
+       background-color: #f3f2f2;
+       margin-top: 250px;
+       font-family: Arial, Helvetica, sans-serif;
+      
+
+  }
+
+  .card1 p{
+    line-height: 1.6;
+  }
+  
+  .card1 h4{
+      
+    margin-left: 50px;
+
+       color: rgb(133, 16, 243);
+     
+
+  }
+
+  .img1{
+border-radius: 10px;
+
+
+  }
+  
+  /*footer section */
+  
+  .footer {
+  
+      padding: 30px;
+      width: 100%;
+      position: fixed;
+              padding: 5px;
+              bottom: 0;
+              width: 100%;
+              height: 50px;
+              font-size: 30px;
+  
+      background-color: rgb(16, 6, 24);
+  }
+  .footer{
+
+    word-spacing: 30px;
+    text-align: center;
+
+  }
+  .footer a{
+    
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Content back */
+
+  .img2{
+
+    width: 400px;
+    height:280px;
+    background-color: #dbe6dd;
+    margin-left: 25px;
+    margin-top: -20px;
+     border-radius: 20px;
+
+    
+
+  }
+.img2 img{
+  
+
+  width: 100%;
+border-radius: 10px;
+
+}
+
+
+a{
+
+  text-decoration: none;
+}
+
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+     
+
+    }
+.header{
+
+  width: 100%;
+  height: 108px;
+}
+
+.topnav a{
+
+
+}
+
+ iframe{
+ 
+  width: 150px;
+visibility: hidden;
+
+
+
+ }
+
+    /*Update Content 1 mobile */      
+    .card1{
+margin-top: 25px;
+      width: 90%;
+      margin-left: 25px;
+    }
+    .card1 h4{
+   font-size: 15px;
+      margin-left: 30px;
+      font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+.img1{
+  width: 100%;
+  margin-top: -10px;
+
+}
+
+
+
+
+
+  }
+  @media screen and (min-width:600px) {
+
+
+    .card1{
+
+width: 50%;
+margin-left: 400px;
+margin-top: 105px;
+}
+
+.card1 h4{
+
+  font-size: 25px;
+         margin-left: 140px;
+         font-size: 150%;
+         top: -10px;
+    }
+    .img1{
+  width: 100%;
+
+
+}
+
+.img2{
+
+  margin-left: 25%;
+}
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  
+
+</div>
+
+<div class="topnav">
+
+   
+</div>
+
+<iframe src="index2.html" height="500" width="300" title="Iframe Example" style="position: fixed;" class="font"></iframe>
+
+
+
+<div>
+
+</div>
+ </div>
+
+<nav class="navbar-Content">
+
+</nav>
+
+
+<div class=" card1">
+              
+    
+
+    <img src="Free Fire img 2.png" alt="ERR" class="img1">
+
+    <h4 style="font-family: Arial, Helvetica, sans-serif;">
+  Free Fire Horor Giveaway Free Redem Code and Rewards.
+    </h4>
+  <p>
+  Get free fire redem code for free if you want to free 100 and 200 daimond
+  so  copy the given redem code and get your choices daimond for free .
+    </p>
+    <br><br>
+
+      <div class="ol">
+        
+    <ol>
+
+      <h5>🎁 Free Reedem Code ₹10 Get Redem Code .</h5>
+      <li>
+        <mark>4Y8WTXJ6P2D4L0CR </mark>
+      </li><br>
+      <li>  <mark>8646CNBKRCDW01L5</mark></li><br>
+      <li>  <mark>3GFT6HTYR66KS148</mark></li><br>
+      <li><mark>KMETM6YPYP7WR6KK</mark></li><br>
+      <li><mark>KSJ34SKMDK3O3MS</mark></li><br>
+      
+    </ol>
+    
+      </div>
+       
+     <p>Get redem code 20 rupees in free fire max for free 
+      this redem code work 20 rupees so if you want to free fire 
+      rewards so copy and redem this code .
+
+
+          <h5>🎁 Free  Redem Code ₹20 Get Redem Code .</h5>
+          <ol>
+      <li>
+      <mark>99X2JBFXM3N8DHSR</mark>
+      </li><br>
+      <li><mark>G754CU4LF18JMMUA	</mark></li><br>
+
+      <li><mark>JAEWG79D13FZT6PH</mark></li><br>
+    </ol><br>
+    
+   
+
+    <p>Get redem code 30 rupees in free fire max for free 
+      this redem code work 30 rupees so if you want to free fire 
+      rewards so copy and redem this code .</p>
+
+
+
+
+          <h5>🎁 Free  Redem Code ₹30 Get Redem Code .</h5>
+
+          <ol>
+            <li><mark>KSJ34SSMDK313MS</mark></li><br>
+            <li><mark>SNSKEMS24MMDKS</mark></li><br>
+            <li> <mark>KSKENJKSO3OSJ</mark></li><br>
+
+          </ol><br>
+
+
+          <p>
+            In this Horor 2024 redem code giveaway cooming soon the 
+            redem code price best redem code 500 rupees amount and 1000 rupees
+            coming soon so if you want to this redem code join this channel .
+          </p><br>
+          
+
+
+         
+    
+  </p>
+ 
+
+
+  </div><br><br><br>
+
+
+
+  
+
+
+
+
+<div class="footer">
+    <footer>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="conta.htm">Contact</a>
+        <a href="privacy.html">Privacy </a>
+    </footer>
+</div>
+
+
+
+</body>
+</html>
+
+
